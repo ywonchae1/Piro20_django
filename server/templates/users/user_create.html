@@ -7,7 +7,6 @@
   <form
     action="{% url 'users:create' %}"
     method="post"
-    enctype="multipart/form-data"
   >
     {%csrf_token%} {{form.as_p}}
     <button class="btn btn-success">추가하기</button>

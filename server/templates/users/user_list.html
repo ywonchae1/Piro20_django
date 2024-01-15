@@ -14,15 +14,6 @@
   </div>
 
   <div class="content-wrapper">
-    {% for user in users %}
-    <div class="mb-3">
-      <a href="/users/update/{{user.pk}}">
-        <button type="button" class="btn btn-outline-secondary">
-          <label>이름 : {{user.name}}</label>
-          <label>나이 : {{user.age}}</label>
-        </button>
-      </a>
-    </div>
-    {% endfor %}
+    <!-- 사용자 목록 -->
   </div>
 {%endblock%}
